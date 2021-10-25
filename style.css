@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Irish Grover', cursive;
+
+}
+
+header {
+    max-width: 100%;
+    background-color: black;
+    height: 70px;
+}
+
+nav h1 {
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+main {
+    display: inline-block;
+  height: 500px;
+  width: 100%;
+}
+
+.center h2 {
+    font-size: 4rem;
+    margin-top: 30rem;
+
+}
+
+
+.container {
+    height: 200px;
+    position: relative;
+  }
+
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .center button {
+      margin-left: 13rem;
+      padding: 10px;
+      margin-top: 2rem;
+  }
+
+  .center .nestedh2 {
+      text-align: center;
+      margin-top: 2rem;
+  }
