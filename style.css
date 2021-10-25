@@ -49,12 +49,25 @@ main {
   }
 
   .center button {
-      margin-left: 13rem;
+      margin-left: 12rem;
       padding: 10px;
       margin-top: 2rem;
+      background-color: black;
+      color: white;
+      border-radius: 10px;
+      width: 150px;
+      font-family: 'Irish Grover', cursive;
+      font-size: 20px;
   }
 
   .center .nestedh2 {
       text-align: center;
       margin-top: 2rem;
+  }
+
+  .center .background {
+      background-color: black;
+      border-radius: 10px;
+      padding: 20px;
+      color: white;
   }
